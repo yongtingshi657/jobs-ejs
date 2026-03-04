@@ -1,7 +1,7 @@
 <%- include("partials/head.ejs") %>
 <%- include("partials/header.ejs") %>
 
-<form method="POST" action='<%= job ? "/jobs/update/" + job.id : "/jobs" %>'>
+<form method="POST" action='<%= job ? "/jobs/update/" + job._id : "/jobs" %>'>
   
   <input type="hidden" name="_csrf" value="<%= _csrf %>" />
 

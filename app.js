@@ -21,7 +21,7 @@ const auth = require("./middleware/auth");
 
 // router import
 const secretWordRouter = require("./routes/secretWord");
-const jobRouter = require("./routes/job");
+const jobRouter = require("./routes/jobs");
 
 const app = express();
 
